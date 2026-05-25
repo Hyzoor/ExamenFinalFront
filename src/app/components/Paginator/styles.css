@@ -1,6 +1,4 @@
 
-
-
 .pagination-container {
 	display: flex;
 	justify-content: center;
@@ -8,6 +6,25 @@
 	margin: 2rem 0;
 }
 
+.arrow-container {
+	width: 10%;
+	padding: 0.8rem 1.5rem;
+	border-radius: 12px;
+	border: none;
+	background: rgba(51, 51, 51, 0.3);
+	color: white;
+	cursor: pointer;
+}
+
+.shortcut {
+	width: 10%;
+	padding: 0.8rem 1.5rem;
+	border-radius: 12px;
+	border: none;
+	background: rgba(51, 51, 51, 0.3);
+	color: white;
+	cursor: pointer;
+}
 .pagination-container button {
 	width: 20%;
 	padding: 0.8rem 1.5rem;
