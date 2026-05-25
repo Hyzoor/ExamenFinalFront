@@ -1,0 +1,35 @@
+
+.search-container {
+	height: 50px;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin: 2rem auto;
+}
+
+.search-container input {
+	width: 100%;
+	height: 100%;
+	padding: 0.8rem 1rem;
+	border-radius: 12px;
+	border: none;
+	font-size: 2rem;
+}
+
+.search-container button {
+	width: 10%;
+	height: 100%;
+	padding: 0.8rem 0;
+	border: none;
+	border-radius: 8px;
+	background: rgba(51, 51, 51, 0.3);
+	color: white;
+	cursor: pointer;
+}
+
+.search-container button:hover {
+	transform: translateY(-2px);
+	background: #dba6c3;
+	color: #333;
+}
